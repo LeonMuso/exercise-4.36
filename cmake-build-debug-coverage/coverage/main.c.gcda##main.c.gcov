@@ -1,0 +1,32 @@
+        -:    0:Source:C:/Users/pinos/CLionProjects/untitled41/main.c
+        -:    0:Graph:C:\Users\pinos\CLionProjects\untitled41\cmake-build-debug-coverage\CMakeFiles\untitled41.dir\main.c.gcno
+        -:    0:Data:C:\Users\pinos\CLionProjects\untitled41\cmake-build-debug-coverage\CMakeFiles\untitled41.dir\main.c.gcda
+        -:    0:Runs:1
+        -:    1:#include <stdio.h>
+        -:    2:
+function main called 1 returned 100% blocks executed 89%
+        1:    3:int main(void) {
+        1:    4:    int salti = 0;
+        -:    5:    int cm;
+        1:    6:    printf("inserisci i cm\n");
+        1:    6-block  0
+call    0 returned 1
+        1:    7:    scanf("%d", &cm);
+call    0 returned 1
+        1:    8:    while (cm != 1 && cm != 0) {
+        1:    8-block  0
+branch  0 taken 1 (fallthrough)
+branch  1 taken 0
+        1:    8-block  1
+branch  2 taken 0
+branch  3 taken 1 (fallthrough)
+    #####:    9:        salti++;
+    #####:   10:        cm = cm * 0.8;
+    #####:   11:        printf("%d\n", cm);
+    %%%%%:   11-block  0
+call    0 never executed
+        -:   12:    }
+        1:   13:    printf("il numero di salti e' %d", salti);
+        1:   13-block  0
+call    0 returned 1
+        -:   14:}
