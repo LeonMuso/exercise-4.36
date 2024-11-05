@@ -7,7 +7,7 @@ int main(void) {
     scanf("%d", &cm);
     while (cm != 1 && cm != 0) {
         salti++;
-        cm = cm * 0.8;
+        cm = cm * 0.8; // ogni salto tolgo il 20%
         printf("%d\n", cm);
     }
     printf("il numero di salti e' %d", salti);
